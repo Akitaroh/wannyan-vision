@@ -1,0 +1,14 @@
+{
+  "name": "wannyan-vision",
+  "version": "1.0.0",
+  "private": true,
+  "description": "わんにゃん視覚 — 写真で犬猫の色の区別をくらべる教育・娯楽用Webアプリ",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "test": "node --test tests/*.test.mjs"
+  }
+}
